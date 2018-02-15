@@ -45,12 +45,12 @@ export const getPizzaVisualised = createSelector(
 
 );
 
-export const getAllLoaded = createSelector(
+export const getPizzaLoaded = createSelector(
   getPizzaState,
   fromPizzas.getPizzasLoaded
 );
 
-export const getAllLoading = createSelector(
+export const getPizzaLoading = createSelector(
   getPizzaState,
   fromPizzas.getPizzasLoading
 );
