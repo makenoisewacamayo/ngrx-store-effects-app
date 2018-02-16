@@ -1,5 +1,5 @@
 import { Pizza } from '../../models/pizza.model';
-import * as fromPizzas from '../actions/pizza.actions';
+import * as fromPizzas from '../actions/pizzas.action';
 
 export interface PizzaState  {
   entities: {

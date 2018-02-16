@@ -5,7 +5,7 @@ import { of } from 'rxjs/observable/of';
 import { map, switchMap, catchError } from 'rxjs/operators'
 
 import * as fromRoot from '../../../app/store';
-import * as pizzaActions from '../actions/pizza.actions';
+import * as pizzaActions from '../actions/pizzas.action';
 import * as fromServices from '../../services';
 
 
